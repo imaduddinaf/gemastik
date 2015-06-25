@@ -5,18 +5,19 @@ public class PlayerController : MonoBehaviour {
 
 	public float speed;
 
-	private Rigidbody rb;
+	private Rigidbody2D rb;
 
 	void Start()
 	{
-		rb = GetComponent<Rigidbody> ();
+		rb = GetComponent<Rigidbody2D> ();
 	}
 
 	void FixedUpdate()
 	{
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, 0.0f);
+		Vector2 movement = new Vector2 (moveHorizontal, 0.0f);
+
 		rb.AddForce (movement*speed);
 	}
 }
