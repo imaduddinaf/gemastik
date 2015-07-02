@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 51ea5f53d8c70614e856f173fef882b4
-timeCreated: 1435311370
+timeCreated: 1435653929
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -58,9 +58,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 45
-        y: 23
+        y: 292
         width: 41
-        height: 436
+        height: 167
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -82,7 +82,7 @@ TextureImporter:
         width: 134
         height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: asset_cuacatali_3
       rect:
@@ -92,7 +92,7 @@ TextureImporter:
         width: 134
         height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: asset_cuacatali_4
       rect:
@@ -102,7 +102,7 @@ TextureImporter:
         width: 133
         height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
